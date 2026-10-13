@@ -2,13 +2,13 @@
 A dual-screen passive network telemetry and cyberdeck OS for the ESP32
 
 
-# 9jwaan OS 📟
+# 9jwaan OS 
 
 **9jwaan OS** is a custom, dual-screen passive network telemetry operating system built for the ESP32. Designed as an educational prototype for network security and Informatics Practices (IP), it transforms standard microcontroller hardware into a localized counter-surveillance and RF diagnostic deck.
 
 It operates entirely passively. It does not transmit active attacks; instead, it utilizes the ESP32's promiscuous mode to intercept, parse, and map 802.11 and BLE environmental data in real-time.
 
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 * **Microcontroller:** ESP32 (WROOM or WROVER)
 * **Primary Display:** 0.96" I2C OLED (SSD1306)
 * **Secondary Display:** 16x2 I2C Character LCD
@@ -16,7 +16,7 @@ It operates entirely passively. It does not transmit active attacks; instead, it
 * **Analog Input:** 10k Potentiometer (for threshold/gain adjustments)
 * **Digital Inputs:** Joystick Switch (Back/Exit), plus 2 Tactile Buttons (Action)
 
-## 🚀 Features & Modules
+##  Features & Modules
 
 **Network Security & Telemetry**
 1. **Targeted Network Auditor:** Sweeps 2.4GHz space, locks onto specific BSSIDs, and graphs real-time traffic while displaying encryption vulnerabilities.
@@ -36,14 +36,14 @@ It operates entirely passively. It does not transmit active attacks; instead, it
 **Utility**
 12. **DAW/Media Deck:** Connects to a host PC as a BLE keyboard, turning the hardware into a physical media controller/macro deck (Potentiometer = Volume, Action = Play/Pause).
 
-## 💻 Library Dependencies
+##  Library Dependencies
 Install the following via the Arduino IDE Library Manager or as ZIPs:
 * `Adafruit_GFX`
 * `Adafruit_SSD1306`
 * `hd44780` (by Bill Perry)
 * `ESP32-BLE-Keyboard` (by T-vK)
 
-## ⚙️ Build Notes
+##  Build Notes
 * **Partition Scheme:** Ensure you compile using **Huge APP (3MB No OTA / 1MB SPIFFS)**.
 * **Axis Rotation:** The UI navigation uses `JOY_X` (`analogRead`) with inverted logic to account for physical joystick mounting rotation.
 
