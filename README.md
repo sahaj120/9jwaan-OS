@@ -50,14 +50,12 @@ Install the following via the Arduino IDE Library Manager or as ZIPs:
 > **Disclaimer:** This project was developed strictly for educational purposes to demonstrate the invisible data footprint of modern wireless devices. It only passively monitors environmental RF and BLE data.
 
 
-# 9jwaan OS 📟
+## Hardware & Interface Gallery
 
-![9jwaan OS Demo](assets/demo.gif)
-
-**9jwaan OS** is a custom, dual-screen passive network telemetry operating system built for the ESP32...
-
-## 📸 Interface Gallery
-
-| Spatial BLE Radar | Threat Sentinel | Digital Tripwire |
+| Deck Setup 1 | Deck Setup 2 | Spatial BLE Radar |
 |:---:|:---:|:---:|
-| ![Radar](assets/radar.jpg) | ![Sentinel](assets/sentinel.jpg) | ![Tripwire](assets/tripwire.jpg) |
+| ![Deck 1](Img%201.jpeg) | ![Deck 2](Img%202.jpeg) | ![Radar Module](Img%203%20Radar.jpeg) |
+
+## 🎥 Live Action Demos
+
+Check out the passive telemetry engines
