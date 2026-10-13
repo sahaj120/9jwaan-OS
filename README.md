@@ -48,3 +48,16 @@ Install the following via the Arduino IDE Library Manager or as ZIPs:
 * **Axis Rotation:** The UI navigation uses `JOY_X` (`analogRead`) with inverted logic to account for physical joystick mounting rotation.
 
 > **Disclaimer:** This project was developed strictly for educational purposes to demonstrate the invisible data footprint of modern wireless devices. It only passively monitors environmental RF and BLE data.
+
+
+# 9jwaan OS 📟
+
+![9jwaan OS Demo](assets/demo.gif)
+
+**9jwaan OS** is a custom, dual-screen passive network telemetry operating system built for the ESP32...
+
+## 📸 Interface Gallery
+
+| Spatial BLE Radar | Threat Sentinel | Digital Tripwire |
+|:---:|:---:|:---:|
+| ![Radar](assets/radar.jpg) | ![Sentinel](assets/sentinel.jpg) | ![Tripwire](assets/tripwire.jpg) |
